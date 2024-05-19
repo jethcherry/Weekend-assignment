@@ -97,7 +97,7 @@ function applyDiscount() {
         document.getElementById('discount').disabled = true;
         document.querySelector('button[onclick="applyDiscount()"]').disabled = true;
     } else {
-        alert("Please enter a valid discount percentage (0-100).");
+        alert("Please enter a valid discount percentage (0-30).");
     }
 }
 
