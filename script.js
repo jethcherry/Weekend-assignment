@@ -104,8 +104,8 @@ function applyDiscount() {
 function checkout() {
     if (cart.length > 0) {
         const totalAmount = document.getElementById("total").innerHTML;
-        localStorage.setItem('totalAmount', totalAmount); // Store total amount in local storage
-        window.location.href = 'payment.html'; // Redirect to payment page
+        localStorage.setItem('totalAmount', totalAmount); 
+        window.location.href = 'payment.html'; 
     } else {
         alert('Your cart is empty!');
     }
