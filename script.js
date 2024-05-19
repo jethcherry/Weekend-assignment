@@ -3,25 +3,25 @@ const product = [
         id: 0,
         image: '/images/foldable-mobile.jpeg',
         title: 'z Flip Foldable Mobile',
-        price: 120,
+        price: 15600,
     },
     {
         id: 1,
         image: '/images/airpods.jpeg',
         title: 'Air Pods Pro',
-        price: 60
+        price: 7800
     },
     {
         id: 2,
         image: '/images/camera250D.jpeg',
         title: '250D DSLR Camera',
-        price: 230
+        price: 29900
     },
     {
         id: 3,
         image: '/images/head-phone.jpeg',
         title: 'Head phones',
-        price: 100,
+        price: 13000,
     }
 ];
 
@@ -42,7 +42,7 @@ const categories = [...new Set(product.map((item)=>
                 </div>
                 <div class='bottom'>
                     <p>${title}</p>
-                    <h2>$ ${price}.00</h2> 
+                    <h2>Ksh ${price}.00</h2> 
                     <button onclick='addToCart(${index})'>Add to cart</button> 
                 </div>
             </div>`;
