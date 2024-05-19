@@ -193,3 +193,7 @@ button:hover{
     cursor: pointer;
     color: #333;
 }
+.checkout
+{
+    margin-top: 20px;
+}
