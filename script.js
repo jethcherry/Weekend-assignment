@@ -4,6 +4,7 @@ const product = [
         image: '/images/foldable-mobile.jpeg',
         title: 'z Flip Foldable Mobile',
         price: 15600,
+        
     },
     {
         id: 1,
@@ -22,6 +23,12 @@ const product = [
         image: '/images/head-phone.jpeg',
         title: 'Head phones',
         price: 13000,
+    },
+    {
+        id:4,
+        image: '/images/1.jpg',
+        title:'TCL 50 Smart UHD 4K With HDR Google TV Frameless ',
+        price: 50499,
     }
 ];
 
@@ -38,7 +45,7 @@ document.getElementById('root').innerHTML = product.map((item, index) => {
             </div>
             <div class='bottom'>
                 <p>${title}</p>
-                <h2>Ksh ${price}.00</h2> 
+                <h2>Ksh ${price}.00</h2>
                 <button onclick='addToCart(${index})'>Add to cart</button> 
             </div>
         </div>`;
